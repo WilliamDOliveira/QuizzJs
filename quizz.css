@@ -1,0 +1,72 @@
+ul[id*="QuizzNumber__"]{
+	width : 100%;
+	box-sizing: border-box;
+	color: #5a5a5a;
+	padding: 20px;
+}
+ul[id*="QuizzNumber__"] li:first-child{
+	padding: 10px;
+	margin-bottom:20px;
+	font-size: 22px;
+	pointer-events: none;
+	font-weight: bold;
+}
+ul[id*="QuizzNumber__"] li:not(:first-child){
+	font-size: 18px;
+}
+ul[id*="QuizzNumber__"] li:not(:last-child){
+	border: 1px solid #5a5a5a;
+}
+ul[id*="QuizzNumber__"] li:last-child{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+ul[id*="QuizzNumber__"] li:not(:last-child):hover{
+	background-color:  blue;
+	color: #fff ;			
+}
+ul[id*="QuizzNumber__"] li{
+	list-style: none;
+	line-height: 1.2em;
+	font-family: 'Arial', sans-serif ;
+	letter-spacing: 2px;
+	background-color: #fff;
+	margin-bottom:5px;
+}
+ul[id*="QuizzNumber__"] li label{
+	padding: 10px;
+}
+ul[id*="QuizzNumber__"] li #QuizzSendBtn{
+	background-color:  #5e69f7;
+	border: none ;
+	color: #fff ;			
+	width: 100%;
+	display: block;
+	min-height: 40px;
+	line-height: 40px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	transition: .3s ease;
+}
+ul[id*="QuizzNumber__"] li #QuizzSendBtn:hover{
+	background-color: #1d29c3;
+}
+ul[id*="QuizzNumber__"] li #QuizzSendBtn[disabled]{
+	background-color: #6d6d6d;
+}
+ul[id*="QuizzNumber__"] li.Quizz__right{
+	background-color:  green;
+	color: #fff ;
+}
+ul[id*="QuizzNumber__"] li.Quizz__selected,
+ul[id*="QuizzNumber__"] li.Quizz__copyselected{
+	background-color:  blue;
+	color: #fff ;
+}
+ul[id*="QuizzNumber__"] li.Quizz__error{
+	background-color:  red;
+	color: #fff ;
+}
+ul[id*="QuizzNumber__"].Quizz__hidden{
+	display: none;
+}
