@@ -95,7 +95,7 @@ Caso faça isso, lembre se de criar e inicializar a variável acima desse métod
 
     <script>
     ...
-    Quizz('#quizz')start( 
+    Quizz('#quizz').start( 
     [
     	{
     		"question":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
