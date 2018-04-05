@@ -5,8 +5,13 @@ QuizzJs Lib
 > Possui alguns métodos para facilitar seu uso, é bem **versátil** e
 > *principalmente* é **fácil de usar**.
 
-**Como usar:**
+**Exemplos / Demos:** </br>
+<a href="https://williamdoliveira.github.io/QuizzJs/quizz_ex1.html">Exemplo 1 - mostra certo e errado</a></br>
+<a href="https://williamdoliveira.github.io/QuizzJs/quizz_ex2.html">Exemplo 2 - não pode mudar resposta, após escolha</a></br>
+<a href="https://williamdoliveira.github.io/QuizzJs/quizz_ex3.html">Exemplo 3 - slider</a></br>
+<a href="https://williamdoliveira.github.io/QuizzJs/quizz_ex4.html">Exemplo 4 - mais opções de configuração</a></br>
 
+**Como usar:**
  
 
 Primeiro
